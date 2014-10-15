@@ -19,6 +19,8 @@ public class Patients {
         this.phone = phone;
     }
    
-   
+   public String toString(){
+           return "id_patient = "+ this.id_patient + ", Name = " + this.Name + ", Surname = " + this.Surname + ", residence = " + this.residence + ",phone = " + this.phone;
+   }
     
 }

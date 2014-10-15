@@ -22,6 +22,9 @@ public class Patient_card implements Serializable  {
         this.birth = birth;
     }
     
-    
+    @Override
+    public String toString(){
+           return "id_card = " + this.id_card + ", id_patient = " +  this.id_patient + ", Name = " + this.Name + ", blood = " + this.blood + ", birth = " + this.birth; 
+   }
     
 }

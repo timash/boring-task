@@ -16,5 +16,8 @@ public class Treatments implements Serializable {
         this.medicines = medicines;
     }
     
-    
+    @Override
+    public String toString(){
+           return "id_treatments = "+ this.id_treatments + ", diagnosis = " + this.diagnosis + ", medicines = " + this.medicines;
+   }
 }

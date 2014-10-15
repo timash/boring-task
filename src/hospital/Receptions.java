@@ -32,6 +32,10 @@ public class Receptions implements Serializable {
         this.diagnosis = diagnosis;
         this.date = date;
     }
+    @Override
+     public String toString(){
+           return "id_reception = " + this.id_reception + ", id_doctor = " +  this.id_doctor + ", id_card = " + this.id_card + ", id_course = " + this.id_course + ", name_doc = " + this.name_doctor + ",surname_doc = " + this.surname_doctor; 
+   }
     
 }
 
